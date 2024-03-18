@@ -1,0 +1,257 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 1.28;
+    color: #111111;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #111111;
+    line-height: 1.1;
+    font-style: italic;
+    letter-spacing: -0.03em;
+}
+
+.navigation {
+    color: #111111;
+    line-height: 1.14;
+    list-style: none;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+}
+
+.address {
+    list-style: none;
+}
+
+.hero {
+    background-color: rgba(17, 17, 17, 0.6);
+}
+
+.main-page {
+    color: #FFFFFF;
+    font-size: 28px;
+    line-height: 1.21;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+}
+
+.button-buy {
+    color: #ffffff;
+    background-color: #FD9222;
+    font-weight: 600;
+    text-align: center;
+}
+
+.benefits {
+    background-color: #1E1823;
+    color: #ffffff;
+}
+
+.benefits-list {
+    list-style: none;
+}
+
+.benefits-header {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.benefits-text {
+    letter-spacing: -0.02em;
+}
+
+.taste {
+    color: #FD9222;
+}
+
+.ingredients {
+    font-size: 24px;
+    line-height: 1.16;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+.ingredients-text {
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+
+.ingredients-photo {
+    list-style: none;
+}
+
+.chocolate-ingredients {
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+.made {
+    color: #FD9222;
+}
+
+.direction {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -0.03em;
+}
+
+.discover {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33;
+}
+
+.discover-text {
+    letter-spacing: -0.02em;
+}
+
+.products {
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: -0.03em;
+    line-height: 1.16;
+    color: #111111;
+}
+
+.products-header {
+    color: #FD9222;
+}
+
+.chocolate-type {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+}
+
+.chocolate-description {
+    color: rgba(17, 17, 17, 0.7);
+    font-size: 12px;
+    letter-spacing: -0.02em;
+    line-height: 1.16;
+}
+
+.chocolate-list {
+    list-style: none;
+}
+
+.chocolate-button {
+    background-color: #fafafa;
+    width: 94px;
+    height: 33px;
+}
+
+.top {
+    color: #FD9222;
+}
+
+.top-selers {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.top-photo {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.chocolate {
+    color: #FD9222;
+}
+
+.loved {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.feedback-list {
+    list-style: none;
+}
+
+.visitors {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+}
+
+.feedback {
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(17, 17, 17, 0.7);
+}
+
+.feedback-button {
+    font-weight: 600;
+    font-size: 18px;
+    width: 222px;
+    height: 50px;
+}
+
+.chocolate-footer {
+    color: #FD9222;
+}
+
+.footer {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+}
+
+.social-networks {
+    font-weight: 500;
+    line-height: 1.29;
+    text-align: center;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.contact-us {
+    font-weight: 500;
+    line-height: 1.29;
+    text-align: center;
+}
+
+.contact {
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.footer-navigation {
+    font-weight: 500;
+    line-height: 1.13;
+    letter-spacing: -0.02em;
+    list-style: none;
+}
