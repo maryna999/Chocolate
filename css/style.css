@@ -8,6 +8,15 @@ body {
 a {
     text-decoration: none;
 }
+ul{
+    list-style: none;
+}
+
+/*-----HEADER-----*/
+
+.main-header{
+    display: flex;
+}
 
 .header {
     font-size: 18px;
@@ -17,6 +26,13 @@ a {
     line-height: 1.1;
     font-style: italic;
     letter-spacing: -0.03em;
+    margin: 24px 4px 32px 32px;
+    display: flex;
+}
+
+.header-image{
+    margin-right: 413px;
+    display: flex;
 }
 
 .navigation {
@@ -25,11 +41,25 @@ a {
     list-style: none;
     font-weight: 500;
     letter-spacing: -0.02em;
+    cursor: pointer;
+}
+.home:hover{
+    color: #FD9222;
+}
+.how-made:hover{
+color: #FD9222;
+}
+.chocolate-is-loved:hover{
+    color: #FD9222;
 }
 
 .address {
     list-style: none;
+    display: flex;
+    gap: 14px
 }
+
+/*-----HERO-----*/
 
 .hero {
     background-color: rgba(17, 17, 17, 0.6);
@@ -48,7 +78,28 @@ a {
     background-color: #FD9222;
     font-weight: 600;
     text-align: center;
+    border-radius: 100px;
+    padding: 14px 40px;
+    width: 144px;
+    height: 45px;
+    cursor: pointer;
 }
+.how-made{
+border: 1px solid #fff;
+border-radius: 100px;
+padding: 14px 40px;
+width: 183px;
+height: 45px;
+color: #FFFFFF;
+}
+.scroll{
+    font-weight: 500;
+    line-height: 1.28;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+/*-----BENEFITS-----*/
 
 .benefits {
     background-color: #1E1823;
@@ -57,6 +108,9 @@ a {
 
 .benefits-list {
     list-style: none;
+}
+.benefits-items{
+
 }
 
 .benefits-header {
@@ -72,7 +126,12 @@ a {
     color: #FD9222;
 }
 
-.ingredients {
+/*-----INGREDIENTS-----*/
+
+.ingredients{
+
+}
+.ingredients-title {
     font-size: 24px;
     line-height: 1.16;
     text-align: center;
@@ -89,12 +148,21 @@ a {
 .ingredients-photo {
     list-style: none;
 }
+.ingredients-item{
+
+}
 
 .chocolate-ingredients {
     font-weight: 600;
     letter-spacing: -0.02em;
 }
 
+
+/*-----MADE-----*/
+
+.discover{
+
+}
 .made {
     color: #FD9222;
 }
@@ -108,17 +176,28 @@ a {
     letter-spacing: -0.03em;
 }
 
-.discover {
+.discover-subtitle {
     font-size: 18px;
     font-weight: 600;
     line-height: 1.33;
 }
+.discover-list{
 
+}
+
+.discover-items{
+
+}
 .discover-text {
     letter-spacing: -0.02em;
 }
 
-.products {
+/*-----PRODUCTS-----*/
+
+.products{
+
+}
+.products-title {
     font-weight: 600;
     font-size: 24px;
     text-transform: uppercase;
@@ -150,18 +229,31 @@ a {
 .chocolate-list {
     list-style: none;
 }
+.products-item{
+
+}
 
 .chocolate-button {
     background-color: #fafafa;
     width: 94px;
     height: 33px;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 100px;
+    padding: 8px 20px;
+}
+
+/*-----SELLERS-----*/
+
+
+.sellers{
+
 }
 
 .top {
     color: #FD9222;
 }
 
-.top-selers {
+.top-sellers {
     font-weight: 600;
     font-size: 24px;
     line-height: 1.16;
@@ -169,7 +261,12 @@ a {
     text-transform: uppercase;
     text-align: center;
 }
+.sellers-list{
 
+}
+.sellers-items{
+
+}
 .top-photo {
     font-weight: 600;
     font-size: 18px;
@@ -182,7 +279,12 @@ a {
     color: #FD9222;
 }
 
-.loved {
+/*-----LOVED-----*/
+
+.loved{
+
+}
+.loved-title {
     font-weight: 600;
     font-size: 24px;
     line-height: 1.16;
@@ -193,6 +295,9 @@ a {
 
 .feedback-list {
     list-style: none;
+}
+.feedback-items{
+
 }
 
 .visitors {
@@ -216,37 +321,62 @@ a {
     height: 50px;
 }
 
+/*-----FOOTER-----*/
+
+
 .chocolate-footer {
     color: #FD9222;
 }
+.footer{
+    background-color: #1e1823;
 
-.footer {
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 1.21;
-    letter-spacing: -0.02em;
+}
+.footer-text {
+font-weight: 500;
+font-size: 28px;
+line-height: 1.21429;
+letter-spacing: -0.02em;
+color: #ffffff;
 }
 
 .social-networks {
     font-weight: 500;
     line-height: 1.29;
     text-align: center;
+    color: #fff;
 }
 
 .footer-list {
     list-style: none;
+    color: #fff;
 }
-
+.footer-items{
+color: #fff;
+}
+.footer-soc-link{
+color: #fff;
+}
+.footer-address{
+color: #fff;
+}
+.footer-address-list{
+color: #fff;
+}
+.footer-address-item{
+color: #fff;
+}
 .contact-us {
     font-weight: 500;
     line-height: 1.29;
     text-align: center;
+    color: #fff;
 }
 
 .contact {
     line-height: 1.29;
     letter-spacing: -0.02em;
     text-align: center;
+    color: #fff;
 }
 
 .footer-navigation {
@@ -254,4 +384,10 @@ a {
     line-height: 1.13;
     letter-spacing: -0.02em;
     list-style: none;
+}
+.footer-nav-item{
+color: #fff;
+}
+.footer-nav-link{
+color: #fff;
 }
