@@ -1,68 +1,100 @@
 body {
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    line-height: 1.28;
-    color: #111111;
+font-family: "Montserrat", sans-serif;
+font-size: 14px;
+line-height: 1.28;
+color: #111111;
 }
 
 a {
-    text-decoration: none;
+text-decoration: none;
 }
+
 ul{
-    list-style: none;
+list-style: none;
+padding: 0;
+margin: 0;
 }
 
-/*-----HEADER-----*/
-
-.main-header{
-    display: flex;
+h1, h2, h3, h4, h5, h6, p{
+margin: 0;
+padding: 0;
 }
 
-.header {
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #111111;
-    line-height: 1.1;
-    font-style: italic;
-    letter-spacing: -0.03em;
-    margin: 24px 4px 32px 32px;
-    display: flex;
+button{
+cursor: pointer;
+}
+
+.container{
+width: 1136px;
+margin: 0 auto;
+padding: 0 15px;
+}
+
+/*-----HEADER-----*/ 
+
+.container-header{
+
+}
+
+.header{
+padding-top: 24px;
+padding-bottom: 32px;
+}
+
+
+.header-nav{
+
+}
+
+.header-link {
+font-size: 18px;
+font-weight: 700;
+text-transform: uppercase;
+color: #111111;
+line-height: 1.1;
+font-style: italic;
+letter-spacing: -0.03em;
 }
 
 .header-image{
-    margin-right: 413px;
-    display: flex;
+
 }
 
 .navigation {
-    color: #111111;
-    line-height: 1.14;
-    list-style: none;
-    font-weight: 500;
-    letter-spacing: -0.02em;
-    cursor: pointer;
+color: #111111;
+line-height: 1.14;
+list-style: none;
+font-weight: 500;
+letter-spacing: -0.02em;
+cursor: pointer;
 }
+
+
 .home:hover{
-    color: #FD9222;
+color: #FD9222;
 }
-.how-made:hover{
+
+.how-made-nav:hover{
 color: #FD9222;
 }
 .chocolate-is-loved:hover{
-    color: #FD9222;
+color: #FD9222;
 }
 
 .address {
-    list-style: none;
-    display: flex;
-    gap: 14px
+list-style: none;
 }
 
 /*-----HERO-----*/
 
 .hero {
-    background-color: rgba(17, 17, 17, 0.6);
+padding-bottom: 80px;
+}
+
+.hero-container{
+background-color: rgba(17, 17, 17, 0.6);
+padding: 380px 40px 40px 40px;
+border-radius: 30px;
 }
 
 .main-page {
@@ -71,6 +103,7 @@ color: #FD9222;
     line-height: 1.21;
     font-weight: 500;
     letter-spacing: -0.03em;
+    max-width: 484px;
 }
 
 .button-buy {
@@ -102,20 +135,24 @@ color: #FFFFFF;
 /*-----BENEFITS-----*/
 
 .benefits {
-    background-color: #1E1823;
-    color: #ffffff;
+background-color: #1E1823;
+color: #ffffff;
+padding-top: 50px;
+padding-bottom: 50px;
 }
 
 .benefits-list {
     list-style: none;
 }
 .benefits-items{
-
+padding-left: 18px;
+padding-right: 18px;
 }
 
-.benefits-header {
-    font-size: 18px;
-    font-weight: 600;
+.benefits-title {
+font-size: 18px;
+font-weight: 600;
+margin-bottom: 18px;
 }
 
 .benefits-text {
@@ -129,20 +166,27 @@ color: #FFFFFF;
 /*-----INGREDIENTS-----*/
 
 .ingredients{
-
+padding-top: 120px;
+padding-bottom: 60px;
 }
 .ingredients-title {
-    font-size: 24px;
-    line-height: 1.16;
-    text-align: center;
-    font-weight: 600;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
+font-size: 24px;
+line-height: 1.16;
+text-align: center;
+font-weight: 600;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+max-width: 412px;
+margin: 0 auto;
+margin-bottom: 28px;
 }
 
 .ingredients-text {
-    text-align: center;
-    letter-spacing: -0.02em;
+text-align: center;
+letter-spacing: -0.02em;
+margin-bottom: 50px;
+max-width: 486px;
+margin: 0 auto;
 }
 
 .ingredients-photo {
@@ -161,6 +205,8 @@ color: #FFFFFF;
 /*-----MADE-----*/
 
 .discover{
+padding-top: 60px;
+padding-bottom: 60px;
 
 }
 .made {
@@ -174,19 +220,26 @@ color: #FFFFFF;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: -0.03em;
+    margin-bottom: 50px;
 }
 
 .discover-subtitle {
     font-size: 18px;
     font-weight: 600;
     line-height: 1.33;
+    margin-bottom: 28px;
+    max-width: 350px;
 }
 .discover-list{
 
 }
 
 .discover-items{
+margin-bottom: 24px;
+}
 
+.discover-items:last-child{
+margin-bottom: 0;
 }
 .discover-text {
     letter-spacing: -0.02em;
