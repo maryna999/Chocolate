@@ -113,6 +113,14 @@ fill: transparent;
 stroke: #111;
 }
 
+.header-soc-icons:hover{
+stroke: #FD9222;
+}
+
+.header-soc-icons:active {
+stroke: #FD9222;
+}
+
 
 
 /*-----HERO-----*/
@@ -160,6 +168,13 @@ height: 45px;
 cursor: pointer;
 border: none;
 margin-right: 14px;
+transition-property: background-color, color;
+transition-duration: 500ms;
+}
+
+.button-buy:hover{
+background-color: #fcf1e0;
+color: #fd9222;
 }
 
 .how-made{
@@ -174,6 +189,11 @@ text-align: center;
 margin-right: 580px;
 }
 
+.how-made:hover{
+border: 1px solid #FD9222;
+color: #fd9222;
+}
+
 .scroll{
 font-weight: 500;
 line-height: 1.28;
@@ -185,13 +205,21 @@ align-items: center;
 gap: 14px;
 }
 
-/*.scroll::after{
-content: '';
-width: 38px;
-height: 38px;
-background-color: #ffffff;
+.scroll:hover{
+color: #fd9222;
+}
+
+
+.hero-icon{
+border: 3px solid #fff;
 border-radius: 50%;
-}*/
+fill: #FD9222;
+}
+
+.hero-icon:hover{
+border: 3px solid #FD9222;
+fill: #fff;
+}
 
 .hero-icon{
 
@@ -221,6 +249,11 @@ padding-left: 18px;
 padding-right: 18px;
 }
 
+.benefits-icons{
+border: 1px solid rgba(255, 255, 255, 0.5);
+border-radius: 365px;
+}
+
 .benefits-title {
 font-size: 18px;
 font-weight: 600;
@@ -230,6 +263,7 @@ width: calc((100% - 2 * 88px) / 3);
 
 .benefits-text {
 letter-spacing: -0.02em;
+color: rgba(255, 255, 255, 0.7);
 }
 
 
@@ -500,10 +534,35 @@ gap: 16px;
 }
 
 .sellers-items{
-width: 368px;
 height: 544px;
 border-bottom: 1px solid rgba(17, 17, 17, 0.1);
 border-radius: 0 0 15px 15px;
+width: calc((100% - 32px) / 3);
+}
+
+.sellers-items:hover .sellers-cover-text{
+transform: translateY(0);
+transition: transform 300ms linear;
+}
+
+.sellers-cover-wrap{
+position: relative;
+overflow: hidden;
+}
+
+.sellers-cover-text{
+backdrop-filter: blur(15px);
+background: linear-gradient(161deg, rgba(253, 253, 255, 0.1) 0%, rgba(8, 2, 21, 0.1) 100%);
+position: absolute;
+top: 0;
+color: #fafafa;
+height: 100%;
+padding-left: 32px;
+padding-right: 32px;
+display: flex;
+align-items: center;
+border-radius: 15px 15px 0 0;
+transform: translateY(100%);
 }
 
 .top-photo {
